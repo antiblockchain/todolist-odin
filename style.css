@@ -15,10 +15,9 @@ body {
 }
 button {
     border: none;
-    background-color: rgb(140, 182, 229);
     padding: .75rem;
     border-radius: 10px;
-    padding: .75rem .5rem;
+    padding: .75rem 1.5rem;
     text-align: center;
     font-weight: 500;
 
@@ -26,7 +25,6 @@ button {
 input {
     border-style: solid;
     border-width: medium;
-    border-color: rgb(106, 141, 180);
     border-radius: 5px;
 }
 ul {
@@ -46,7 +44,7 @@ li {
     padding: 1rem;
     gap: 1rem;
     font-weight: 600;
-    background-color:rgb(237, 237, 237);
+    border-bottom: solid rgb(237, 237, 237);
 }
 li button {
     margin: 1rem;
@@ -54,4 +52,7 @@ li button {
 }
 li p {
     font-weight: 400;
+}
+i {
+    color: black;
 }
